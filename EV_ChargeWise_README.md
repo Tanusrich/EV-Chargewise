@@ -43,37 +43,7 @@ EV ChargeWise is a full-stack mobile application designed to simplify the proces
 
 ## 📊 Architecture
 
-```mermaid
-flowchart TD
-    UserApp[User App (Flutter)]
-    AdminApp[Admin App (Flutter)]
-    Frontend -->|REST API| Backend
-    Backend -->|PostgreSQL| Database[(PostgreSQL)]
-    Backend -->|Redis| TaskQueue[(Celery)]
-    Backend --> PayPal[PayPal API]
-    Backend --> OSRM[OSRM Server]
-    Frontend --> Leaflet[Map API (flutter_map)]
-    Backend --> Auth[JWT Auth]
-
-    subgraph Frontend
-        UserApp
-        AdminApp
-    end
-```
-
----
-
-## 📚 Data Collection & Research
-
-We scraped real-world EV charging station data for analysis and training:
-- 🔗 **https://www.statiq.in/ev-charging-station**
-- 🔗 ElectricPe (Hyderabad)
-- 🔗 e-AMRIT (Government Portal)
-
-We analyzed:
-- ⚡ Charging types and parameters
-- 💰 Pricing models
-- 🧮 Cost and energy consumption calculations using Public Charging Calculator
+<img width="851" height="420" alt="image" src="https://github.com/user-attachments/assets/69c07955-f835-4c32-b140-cd173d9f1d02" />
 
 ---
 
@@ -108,19 +78,20 @@ flutter run
 
 ---
 
-## 📌 Future Scope
+## 📦 App UI
 
-- 🔁 Deploy on Play Store / Web
-- 🛜 Real-time charger status via IoT integration
-- 📈 Dynamic pricing based on usage/demand
-- 🅿️ Slot pre-booking with cancelation policy
+<img width="207" height="461" alt="image" src="https://github.com/user-attachments/assets/3f5b732c-25a3-4ce0-a72e-e5573e608dc1" /> <img width="210" height="467" alt="image" src="https://github.com/user-attachments/assets/ecb7628a-8c1d-44ef-bff3-e0203d713bc8" /> <img width="243" height="540" alt="image" src="https://github.com/user-attachments/assets/279435a8-212a-4b46-a7b3-9d3a7fd1137c" />
+<img width="243" height="541" alt="image" src="https://github.com/user-attachments/assets/a0414dba-a626-4be2-b434-9170d42ee5fd" />
+
 
 ---
 
 ## 🤝 Contributors
 
-- **Tanusri Ch** – Full Stack Developer (Frontend & Backend)
-- Team Members: [Add more if applicable]
+- **Tanusri Ch**
+- **Vedika Heda**
+- **Thrishala Ch**
+- **Aadhya Reddy**
 
 ---
 
